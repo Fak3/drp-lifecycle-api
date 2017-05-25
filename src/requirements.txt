@@ -1,0 +1,15 @@
+# core
+Django>=1.11,<1.12
+psycopg2==2.7.1
+django-environ==0.4.3
+boto3==1.4.4
+
+# 3rd party
+# ...
+
+# deployment
+gunicorn==19.7.1
+
+# Sentry errors collection
+# no version freeze yet - they broke it sometimes, by rarely
+raven
